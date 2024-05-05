@@ -1,0 +1,39 @@
+; JetImgSee.def : Declares the module parameters for the DLL.
+
+LIBRARY      "JetImgSee"
+DESCRIPTION  'JetImgSee Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	GetLastErrorCode		@1
+	OpenBmpFile				@2
+	SaveBmpFile				@3
+	OpenTiffFile			@4
+	SaveTiffFromDib			@5
+	SaveTiffFromBmp			@6
+	OpenJpegFile			@7
+	SaveJpegFromDib			@8
+	SaveJpegFromBmp			@9
+	OpenImgFile				@10
+	hGetImageBlock			@11
+	OpenPcxFile				@12
+	SavePcxFromDib			@13
+	SavePcxFromBmp			@14
+	OpenTgaFile				@15
+	SaveTgaFromDib			@16
+	SaveTgaFromBmp			@17
+	OpenGifFile				@18
+	SaveGifFromDib			@19
+	SaveGifFromBmp			@20
+	SaveFileFromBmp			@21
+	SaveFileFromDib			@22
+	OpenWmfFile				@23
+	OpenIcoFile				@24
+	ReverseImage			@33
+	RotateImage				@34
+	GetPaletteSize			@35
+	GetImageSize			@36
+	GetImageDPI				@37
+	GetSubImageCount		@38
+	ImageIsColor			@39
+	GetImageFormat			@40

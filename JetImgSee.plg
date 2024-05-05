@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JetImgSee - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "G:\WINDOWS\TEMP\RSP84.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Debug/" /Fp"Debug/JetImgSee.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VCProjects\JetImgSee\BMP.cpp"
+"D:\VCProjects\JetImgSee\ExportGIF.cpp"
+"D:\VCProjects\JetImgSee\ExportJPG.cpp"
+"D:\VCProjects\JetImgSee\ExportPCX.cpp"
+"D:\VCProjects\JetImgSee\ExportTGA.cpp"
+"D:\VCProjects\JetImgSee\ExportTiff.cpp"
+"D:\VCProjects\JetImgSee\GIF_LZW.cpp"
+"D:\VCProjects\JetImgSee\ImportGIF.cpp"
+"D:\VCProjects\JetImgSee\ImportICO.cpp"
+"D:\VCProjects\JetImgSee\ImportJPG.cpp"
+"D:\VCProjects\JetImgSee\ImportPCX.cpp"
+"D:\VCProjects\JetImgSee\ImportTGA.cpp"
+"D:\VCProjects\JetImgSee\ImportTiff.cpp"
+"D:\VCProjects\JetImgSee\ImportWMF.cpp"
+"D:\VCProjects\JetImgSee\JetImgSee.cpp"
+"D:\VCProjects\JetImgSee\JetImgSeeApi.cpp"
+"D:\VCProjects\JetImgSee\JPGCFdct.cpp"
+"D:\VCProjects\JetImgSee\JPGCHuff.cpp"
+"D:\VCProjects\JetImgSee\JPGCInit.cpp"
+"D:\VCProjects\JetImgSee\JPGCMark.cpp"
+"D:\VCProjects\JetImgSee\JPGCMcu.cpp"
+"D:\VCProjects\JetImgSee\JPGCSAMP.cpp"
+"D:\VCProjects\JetImgSee\JPGDExpa.cpp"
+"D:\VCProjects\JetImgSee\JPGDHuff.cpp"
+"D:\VCProjects\JetImgSee\JPGDIDct.cpp"
+"D:\VCProjects\JetImgSee\JPGDInit.cpp"
+"D:\VCProjects\JetImgSee\JPGDMark.cpp"
+"D:\VCProjects\JetImgSee\JPGDMcu.cpp"
+"D:\VCProjects\JetImgSee\McsUtil.cpp"
+"D:\VCProjects\JetImgSee\PCXRLE.cpp"
+"D:\VCProjects\JetImgSee\TGA_RLE.cpp"
+"D:\VCProjects\JetImgSee\TGARaw.cpp"
+"D:\VCProjects\JetImgSee\TIF_LZW.cpp"
+"D:\VCProjects\JetImgSee\TIFCCCITT.cpp"
+"D:\VCProjects\JetImgSee\TIFDCCITT.cpp"
+"D:\VCProjects\JetImgSee\TIFPackBits.cpp"
+]
+Creating command line "cl.exe @G:\WINDOWS\TEMP\RSP84.tmp" 
+Creating temporary file "G:\WINDOWS\TEMP\RSP85.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_USRDLL" /FR"Debug/" /Fp"Debug/JetImgSee.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VCProjects\JetImgSee\StdAfx.cpp"
+]
+Creating command line "cl.exe @G:\WINDOWS\TEMP\RSP85.tmp" 
+Creating temporary file "G:\WINDOWS\TEMP\RSP86.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/jetimgsee.pdb" /debug /machine:I386 /def:".\JetImgSee.def" /out:"D:\VCProjects\JetImgCtrl\TestJetImgCtrl\debug\jetimgsee.dll" /implib:"Debug/jetimgsee.lib" /pdbtype:sept 
+.\Debug\BMP.obj
+.\Debug\ExportGIF.obj
+.\Debug\ExportJPG.obj
+.\Debug\ExportPCX.obj
+.\Debug\ExportTGA.obj
+.\Debug\ExportTiff.obj
+.\Debug\GIF_LZW.obj
+.\Debug\ImportGIF.obj
+.\Debug\ImportICO.obj
+.\Debug\ImportJPG.obj
+.\Debug\ImportPCX.obj
+.\Debug\ImportTGA.obj
+.\Debug\ImportTiff.obj
+.\Debug\ImportWMF.obj
+.\Debug\JetImgSee.obj
+.\Debug\JetImgSeeApi.obj
+.\Debug\JPGCFdct.obj
+.\Debug\JPGCHuff.obj
+.\Debug\JPGCInit.obj
+.\Debug\JPGCMark.obj
+.\Debug\JPGCMcu.obj
+.\Debug\JPGCSAMP.obj
+.\Debug\JPGDExpa.obj
+.\Debug\JPGDHuff.obj
+.\Debug\JPGDIDct.obj
+.\Debug\JPGDInit.obj
+.\Debug\JPGDMark.obj
+.\Debug\JPGDMcu.obj
+.\Debug\McsUtil.obj
+.\Debug\PCXRLE.obj
+.\Debug\StdAfx.obj
+.\Debug\TGA_RLE.obj
+.\Debug\TGARaw.obj
+.\Debug\TIF_LZW.obj
+.\Debug\TIFCCCITT.obj
+.\Debug\TIFDCCITT.obj
+.\Debug\TIFPackBits.obj
+.\Debug\JetImgSee.res
+]
+Creating command line "link.exe @G:\WINDOWS\TEMP\RSP86.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+cl.exe terminated at user request.
+
+</pre>
+</body>
+</html>
